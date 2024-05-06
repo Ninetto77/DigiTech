@@ -1,11 +1,11 @@
-using CustomEventBus;
+﻿using CustomEventBus;
 using CustomEventBus.Signals;
 using TMPro;
 using UnityEngine;
 
 public class UIManager : MonoBehaviour, IService, IDisposable
 {
-    public const string RESISTANT_TEXT = "R: ";
+    public const string RESISTANT_TEXT = "Ω: ";
     public const string CURRENT_TEXT = "A: ";
     public const string DCV_TEXT = "DCV: ";
     public const string ACV_TEXT = "ACV: ";
